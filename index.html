@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- v0.0.1 -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+
+        html, body, canvas {
+            /*width:  100%;*/
+            /*height: 100%;*/
+            text-align:center;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        @font-face {
+            font-family: Bonzai;
+            src: url('assets/fonts/bonzai.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: EastAP;
+            src: url('assets/fonts/EASTAP.woff');
+        }
+
+        @font-face {
+            font-family: Tahoma;
+            src: url('assets/fonts/TAHOMA.TTF') format('truetype');
+        }
+
+        @font-face {
+            font-family: China;
+            src: url('assets/fonts/chinacyr-webfont.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: MyriadPro;
+            src: url('assets/fonts/MyriadPro-Regular.otf') format('opentype');
+        }
+
+        @font-face {
+            font-family: MyriadPro-Bold
+            src: url('assets/fonts/MyriadPro-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: AdventureC;
+            src: url('assets/fonts/adventurec-webfont.ttf') format('truetype');
+        }
+
+    </style>
+    <script src="libs/createjs.min.js"></script>
+    <script src="libs/point-ex-0.7.1.min.js"></script>
+    <script src="src/views/comps/decorview.js"></script>
+    <script src="src/views/comps/timeprogressview.js"></script>
+    <script src="src/views/comps/ticketwinstateview.js"></script>
+    <script src="src/views/comps/stateballsview.js"></script>
+    <script src="src/views/comps/ballview.js"></script>
+    <script src="src/views/comps/coeftableview.js"></script>
+    <script src="src/views/comps/numview.js"></script>
+    <script src="src/views/comps/ticketview.js"></script>
+    <script src="src/views/comps/chipview.js"></script>
+    <script src="src/views/comps/backgroundview.js"></script>
+    <script src="src/views/comps/headerview.js"></script>
+    <script src="src/views/comps/footerview.js"></script>
+    <script src="src/views/comps/errorview.js"></script>
+    <script src="src/views/comps/gamestatusview.js"></script>
+    <script src="src/views/comps/ticketpopupview.js"></script>
+    <script src="src/views/comps/tickettableview.js"></script>
+    <script src="src/views/gameview.js"></script>
+    <script src="src/services/startupservice.js" ></script>
+    <script src="src/models/gamemodel.js"></script>
+    <script src="src/models/data/ticketdata.js"></script>
+    <script src="src/services/remoteservice.js"></script>
+    <script src="src/controllers/gamecontroller.js"></script>
+    <script src="src/ui/button.js" ></script>
+    <script src="src/ui/chipbutton.js" ></script>
+    <script src="src/utils/soundutil.js" ></script>
+    <script src="src/utils/assetloader.js" ></script>
+    <script src="src/utils/assets.js" ></script>
+    <script src="src/utils/langholder.js" ></script>
+    <script src="src/utils/gameutil.js" ></script>
+    <script src="src/utils/ndgmr.Collision.js" ></script>
+    <script src="src/utils/api.js" ></script>
+    <script src="src/main.js" ></script>
+</head>
+<body>
+    <canvas id="demoCanvas" width="1600" height="900">
+    </canvas>
+</body>
+</html>
