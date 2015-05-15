@@ -10,9 +10,6 @@
 	 <author href="http://bingo-boom.ru/" email="harut@bingo-boom.ru">
 		 Bingo Boom
 	 </author>
-	 <preference name="phonegap-version" value="3.6.3" />
-	 <preference name="orientation" value="landscape" />
-	 <preference name="fullscreen" value="true" />
-	 <preference name="DisallowOverscroll" value="true"/>
+
 
  </widget>
