@@ -1,15 +1,1 @@
  <?xml version="1.0" encoding="UTF-8" ?>
- <widget xmlns = "http://www.w3.org/ns/widgets"	
-		 xmlns:gap = "http://phonegap.com/ns/1.0"
-		 id = "com.bingo-boom.keno2"
-		 version = "1.0" >
-	 <name>KenoBoom</name>	
-	 <description>
-		 KenoBoom
-	 </description>	
-	 <author href="http://bingo-boom.ru/" email="harut@bingo-boom.ru">
-		 Bingo Boom
-	 </author>
-
-
- </widget>
