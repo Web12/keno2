@@ -11,7 +11,7 @@
 		Harutyun Harutyunyan
 	</author>
 	<preference name="phonegap-version" value="3.0.0" />
-	<preference name="orientation" value="portrait" />
+	<preference name="orientation" value="landscape" />
 	<gap:plugin name="org.apache.cordova.device" />
 	<gap:plugin name="org.apache.cordova.dialogs" />
 </widget>
